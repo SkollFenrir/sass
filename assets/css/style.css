@@ -1,0 +1,47 @@
+/* Variables */
+/* line 8, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.conteiner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #a6d6c6;
+}
+
+/* line 15, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.card {
+  background-color: #212529;
+}
+
+/* line 19, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.modFuente, .modTitle, .modTextDescrip, .modButtonText {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  color: #f8f9fa;
+}
+
+/* Extenciones */
+/* line 26, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.modTitle {
+  font-size: 30px;
+}
+
+/* line 31, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.modTextDescrip {
+  font-size: 20px;
+}
+
+/* line 40, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.btn-primary {
+  background-color: #cf649a;
+}
+
+/* line 44, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.btn {
+  border: 0px;
+}
+
+/* line 48, ../../Desktop/study/seccion2/sass/assets/scss/style.scss */
+.btn:hover {
+  background-color: #cf649a;
+}
+
+/*# sourceMappingURL=style.css.map */

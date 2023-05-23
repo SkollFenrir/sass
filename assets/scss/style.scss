@@ -1,0 +1,47 @@
+@import "./variables";
+/* Variables */
+$mTop: 40px;
+$fuente: 'Edu NSW ACT Foundation', cursive;
+$fontSizexl: 30px;
+$fontSizel: 20px;
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: $mTop;
+    background-color: rgb(166, 214, 198);
+}
+
+.card {
+    background-color: $gray-900;
+}
+
+.modFuente {
+    font-family: $fuente;
+    color: $gray-100;
+}
+
+/* Extenciones */
+
+.modTitle {
+    @extend .modFuente;
+    font-size: $fontSizexl;
+}
+
+.modTextDescrip {
+    @extend .modFuente;
+    font-size: $fontSizel;
+} 
+
+.modButtonText {
+    @extend .modFuente;
+}
+
+.btn-primary {
+    background-color: $purple;
+    @extend .btn:hover;
+}
+
+.btn {
+    border: 0px;
+}
